@@ -18,7 +18,7 @@ export default function Navbar() {
           <a href="about.asp">About</a>
         </li>
         <li>
-          <a href="about.asp">Gallery</a>
+          <a href="gallery.asp">Gallery</a>
         </li>
       </ul>
     </div>
