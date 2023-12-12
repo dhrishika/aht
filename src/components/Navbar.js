@@ -17,6 +17,9 @@ export default function Navbar() {
         <li>
           <a href="about.asp">About</a>
         </li>
+        <li>
+          <a href="about.asp">Gallery</a>
+        </li>
       </ul>
     </div>
   );
