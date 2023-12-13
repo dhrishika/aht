@@ -1,10 +1,14 @@
+
 ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-  }
-li{
-    padding: 10px;
-    font-weight: bolder;
-  }
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color: skyblue;
+  color: white;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+li {
+  padding: 10px;
+}
