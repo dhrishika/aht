@@ -1,0 +1,23 @@
+.App-footer {
+    /* Sets the background color of the footer to #282c34 */
+    background-color: #282c34;
+    
+    /* Sets the minimum height of the footer to 60 pixels */
+    min-height: 60px;
+    
+    /* Configures the flex container to have a column layout */
+    display: flex;
+    flex-direction: column;
+    
+    /* Aligns the items (content) vertically in the center of the flex container */
+    align-items: center;
+    
+    /* Justifies the content vertically in the center of the flex container */
+    justify-content: center;
+    
+    /* Sets the font size of the text inside the footer to 15 pixels */
+    font-size: 15px;
+    
+    /* Sets the color of the text inside the footer to white */
+    color: white;
+}

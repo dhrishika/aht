@@ -1,16 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+// Importing necessary modules
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// Importing CSS file
+import "./index.css";
+
+// Importing the main component of the application
+import App from "./App";
+
+// Creating a root element to render the application
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// Rendering the main component inside the root element
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-
