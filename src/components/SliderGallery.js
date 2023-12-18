@@ -1,6 +1,9 @@
 // Importing necessary dependencies from React
 import React, { useState } from "react";
 
+// Importing css files
+import "./SliderGallery.css";
+
 // Define a functional component called SliderGallery
 function SliderGallery({ images = [] }) {
   // Define a state variable to keep track of the current image index

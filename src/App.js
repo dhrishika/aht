@@ -11,10 +11,10 @@ function App() {
     <div className="App">
       {/* Rendering the Navbar component */}
       <Navbar />
-      {/* Displaying the "Hello World" message */}
-      Hello World
       {/* Rendering the SliderGallery component */}
       <SliderGallery />
+      {/* Displaying the "Hello World" message */}
+      Main Content Space
       <Footer />
     </div>
   );

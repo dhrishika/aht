@@ -4,7 +4,10 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="App-footer">
-      <p>Copyright &copy; 2023 Al Hamad Trading</p>
+      <p>
+        Copyright &copy; 2023- All Rights Reserved - Al Hamad Trading &
+        Contracting Est WLL
+      </p>
     </footer>
   );
 }

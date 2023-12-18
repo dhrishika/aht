@@ -2,6 +2,9 @@
     /* Sets the background color of the footer to #282c34 */
     background-color: #282c34;
     
+    /* Sets the width of the footer to 100% of the browser window */
+    width: 100vw;
+    
     /* Sets the minimum height of the footer to 60 pixels */
     min-height: 60px;
     
@@ -20,4 +23,8 @@
     
     /* Sets the color of the text inside the footer to white */
     color: white;
+    
+    /* Positions the footer at the bottom of the browser window */
+    position: fixed;
+    bottom: 0;
 }

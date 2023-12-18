@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <div>
+    <nav className="navbar">
       <ul>
         <li>
           <a href="default.asp">Home</a>
@@ -21,6 +21,6 @@ export default function Navbar() {
           <a href="gallery.asp">Gallery</a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
